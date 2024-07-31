@@ -1,8 +1,11 @@
 import React from 'react'
+import Medium from './Components/Medium'
 
 function App() {
   return (
-    <div>App</div>
+    <div>
+      <Medium/>
+    </div>
   )
 }
 
