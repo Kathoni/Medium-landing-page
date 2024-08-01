@@ -1,17 +1,33 @@
 import React from 'react'
+import Myimage from '../assets/dark academia.jpeg'
 
 function Medium() {
     return (
         <div>
             <ul>
-            <h1>Medium</h1>
-            <ul>
-                <li>Our Story</li>
-                <li>Membership</li>
-                <li>Write</li>
-                <li> Signin</li>
+            <ul style={{
+                listStyle:"none",
+                padding:"0.5px",
+                marginBlockEnd: "10",
+                display: "flex",
+                justifyContent: "space-between",
+                cursor: "pointer",
+
+            }}>
+                <li style={{float:" right"}}>Our Story</li>
+                <li style={{float:" right"}}>Membership</li>
+                <li style={{float:" right"}}>Write</li>
+                <li style={{float:" right"}}> Signin</li>
                 <li>
-                    <button>Get Started</button>
+                    <button
+                    style={{
+                        backgroundColor: "black",
+                        color: "white",
+                        border: "none",
+                        borderRadius: "15px",
+                        padding: "10px",
+                        cursor: "pointer"}}>
+                            Get Started</button>
                 </li>
             </ul>
             </ul>
@@ -24,6 +40,12 @@ function Medium() {
                 <b>Be part of a better.</b><u>Get 20% off membership for a limited time</u>
                 <hr />
             </div>
+            <section>
+            <img src={Myimage} alt="" style={{
+                width: "20%",
+                height:"30vh"
+            }}/>
+            </section>
             <h4 style={{
                 fontSize: "80px",
                 fontWeight: "bold",
@@ -43,7 +65,14 @@ function Medium() {
             <br />
             <hr />
             <div>
-                <ul>
+                <ul
+               style={{
+                    listStyle:"none",
+                    padding:"0.5px",
+                    marginBlockEnd: "10",
+                    display: "flex",
+                    justifyContent: "space-between",
+                    cursor: "pointer",}}>
                     <li>Help</li>
                     <li>Status</li>
                     <li>About</li>
