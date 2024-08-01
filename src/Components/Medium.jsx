@@ -42,7 +42,7 @@ function Medium() {
             </div>
             <section>
             <img src={Myimage} alt="" style={{
-                width: "20%",
+                width: "30%",
                 height:"30vh"
             }}/>
             </section>
@@ -79,10 +79,6 @@ function Medium() {
                     <li>Careers</li>
                     <li>Press</li>
                     <li>Blog</li>
-                    <li>Privacy</li>
-                    <li>Terms</li>
-                    <li>Text to speech</li>
-                    <li>Teams</li>
                 </ul>
             </div>
         </div>
